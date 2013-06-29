@@ -14,20 +14,22 @@ Gem::Specification.new do |s|
   s.email = "ernest@bzdury.pl"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
     "lib/custom_user_agent.rb",
     "lib/gate_sms.rb",
     "lib/pl-operator-detector.rb",
     "lib/t_mobile.rb",
+    "lib/w_jakiej_sieci.rb",
+    "pl-operator-detector.gemspec",
     "test/helper.rb",
     "test/test_pl-operator-detector.rb"
   ]
