@@ -1,5 +1,7 @@
 require 'rubygems'
 require 'bundler'
+require 'vcr'
+
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
@@ -15,4 +17,9 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'pl-operator-detector'
 
 class Test::Unit::TestCase
+end
+
+VCR.configure do |c|
+  c.cassette_library_dir = 'fixtures/vcr_cassettes'
+  c.hook_into :webmock # or :fakeweb
 end

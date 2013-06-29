@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://download.t-mobile.pl/updir/updir.cgi?msisdn=48602900000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Opera/9.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Opera/19.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAyOSBKdW4gMjAxMyAyMzo0NjoyMCBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hl
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PUlTTy04ODU5LTI=
+      !binary "Q29udGVudC1MYW5ndWFnZQ==":
+      - !binary |-
+        cGw=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PGh0bWw+PGhlYWQ+DQo8bWV0YSBuYW1lPSJWSTYwX2RlZmF1bHRDbGllbnRT
+        Y3JpcHQiIGNvbnRlbnQ9IkphdmFTY3JpcHQiPg0KPG1ldGEgaHR0cC1lcXVp
+        dj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9
+        SVNPLTg4NTktMiI+DQo8bWV0YSBuYW1lPSJyb2JvdHMiIGNvbnRlbnQ9Im5v
+        aW5kZXgsbm9mb2xsb3ciPg0KPG1ldGEgbmFtZT0iYXV0aG9yIiBjb250ZW50
+        PSJQVEMgMjAxMSwgTU5QL1VQRElSIChERikiPg0KPGxpbmsgcmVsPSJzdHls
+        ZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0icmVzL3QtbW9iaWxlX3Jv
+        ei5jc3MiPg0KPHRpdGxlPlQtTW9iaWxlIE1OUDwvdGl0bGU+DQoNCg0KPC9o
+        ZWFkPjxib2R5Pg0KDQoNCjxmb3JtIG5hbWU9ImZvcm0xIiBpZD0iZm9ybTEi
+        IGFjdGlvbj0idXBkaXIuY2dpIiBtZXRob2Q9ImdldCIgbGFuZ3VhZ2U9Imph
+        dmFzY3JpcHQiIG9uU3VibWl0PSJyZXR1cm4gZm9ybTFfb25zdWJtaXQoKSI+
+        DQo8dGFibGUgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iOCIgY2VsbHNwYWNp
+        bmc9IjAiPg0KCTx0Ym9keT48dHI+DQoJCTx0ZCBjbGFzcz0idGxvX2JpYWxl
+        X3NwcmF3ZHpfbnVtZXIiIGNvbHNwYW49IjIiIGFsaWduPSJsZWZ0IiB2YWxp
+        Z249InRvcCIgaGVpZ2h0PSI3MCI+PGltZyBzcmM9InJlcy90LW1vYmlsZV9s
+        b2dvLmdpZiIgYWx0PSIiIGJvcmRlcj0iMCI+PC90ZD4NCgk8L3RyPg0KCTx0
+        cj4NCgkJPHRkIGNsYXNzPSJ0bG9fZ3JhbmF0b3dlX3NwcmF3ZHpfbnVtZXIi
+        IGNvbHNwYW49IjIiIGhlaWdodD0iMSI+PC90ZD4NCgk8L3RyPg0KCTx0cj4N
+        CgkJPHRkIHN0eWxlPSJ3aWR0aDogMjQwcHg7IiB2YWxpZ249InRvcCI+DQoJ
+        CTxwIHN0eWxlPSJmb250LXNpemU6IDE0cHQ7IGNvbG9yOiAjNjY2NjY2OyI+
+        DQoJCTxicj5Nb79lc3ogc3ByYXdkemnmDQoJCTwvcD4NCgoJCTwvdGQ+DQoJ
+        CTx0ZCB2YWxpZ249InRvcCI+DQoJCTx0YWJsZSBzdHlsZT0iIiBib3JkZXI9
+        IjAiIGNlbGxwYWRkaW5nPSIxIiBjZWxsc3BhY2luZz0iMyI+DQoJCQk8dGJv
+        ZHk+PHRyPg0KCQkJCTx0ZD5OdW1lciB0ZWxlZm9udTo8L3RkPg0KCQkJCTx0
+        ZCBjb2xzcGFuPSIyIiBhbGlnbj0icmlnaHQiPg0KCQkJCQk8aW5wdXQgbmFt
+        ZT0ibXNpc2RuIiBpZD0ibXNpc2RuIiBzaXplPSIxMCIgc3R5bGU9IiIgbWF4
+        bGVuZ3RoPSIxMSIgdmFsdWU9IjQ4NjAyOTAwMDAwIiB0eXBlPSJ0ZXh0Ij4N
+        CgkJCQk8L3RkPg0KCQkJPC90cj4NCgkJPC90Ym9keT48L3RhYmxlPjxicj4N
+        Cgk8aW5wdXQgaWQ9ImJ1dHRvbjEiIHZhbHVlPSJTcHJhd2S8IiBjbGFzcz0i
+        YnV0dG9uIiBzdHlsZT0iIiB0eXBlPSJzdWJtaXQiPg0KCTxicj4NCgk8YnI+
+        DQoNCjx0YWJsZSB3aWR0aD0iMTAwJSIgYWxpZ249ImNlbnRlciIgY2VsbHNw
+        YWNpbmc9IjMiIGNlbGxwYWRkaW5nPSIxIiBib3JkZXI9IjAiPjx0cj48dGQ+
+        PGI+TnVtZXIgdGVsZWZvbnU6PC9iPjwvdGQ+PHRkPjQ4NjAyOTAwMDAwPC90
+        ZD48dHI+PHRkPjxiPktvZCBzaWVjaTo8L2I+PC90ZD48dGQ+MjYwIDAyPC90
+        ZD48dHI+PHRkPjxiPk9wZXJhdG9yOjwvYj48L3RkPjx0ZD5QVEM8L3RkPgo8
+        L3RhYmxlPjxici8+Cg0KPC90ZD4NCjwvdHI+DQo8L3Rib2R5PjwvdGFibGU+
+        DQoNCg0KCTwvZm9ybT4NCg0KPC9ib2R5PjwvaHRtbD4=
+    http_version: 
+  recorded_at: Sat, 29 Jun 2013 23:46:33 GMT
+recorded_with: VCR 2.5.0

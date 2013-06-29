@@ -7,4 +7,6 @@ group :development do
   gem "rdoc"
   gem "bundler"
   gem "jeweler"
+  gem "vcr"
+  gem "webmock"
 end
