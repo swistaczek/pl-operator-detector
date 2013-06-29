@@ -24,11 +24,14 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
-    "lib/custom_user_agent.rb",
-    "lib/gate_sms.rb",
+    "fixtures/vcr_cassettes/test_play.yml",
+    "fixtures/vcr_cassettes/test_tmobile.yml",
     "lib/pl-operator-detector.rb",
-    "lib/t_mobile.rb",
-    "lib/w_jakiej_sieci.rb",
+    "lib/pl-operator-detector/custom_user_agent.rb",
+    "lib/pl-operator-detector/gate_sms.rb",
+    "lib/pl-operator-detector/operator_name.rb",
+    "lib/pl-operator-detector/t_mobile.rb",
+    "lib/pl-operator-detector/w_jakiej_sieci.rb",
     "pl-operator-detector.gemspec",
     "test/helper.rb",
     "test/test_pl-operator-detector.rb"
@@ -48,12 +51,16 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rdoc>, [">= 0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
+      s.add_development_dependency(%q<vcr>, [">= 0"])
+      s.add_development_dependency(%q<webmock>, [">= 0"])
     else
       s.add_dependency(%q<faraday>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<rdoc>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<vcr>, [">= 0"])
+      s.add_dependency(%q<webmock>, [">= 0"])
     end
   else
     s.add_dependency(%q<faraday>, [">= 0"])
@@ -61,6 +68,8 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rdoc>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
+    s.add_dependency(%q<vcr>, [">= 0"])
+    s.add_dependency(%q<webmock>, [">= 0"])
   end
 end
 
