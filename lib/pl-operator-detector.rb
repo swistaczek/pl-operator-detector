@@ -1,6 +1,7 @@
 # encoding: utf-8
 require 'faraday'
 require 't_mobile'
+require 'w_jakiej_sieci'
 require 'gate_sms'
 
 class PlOperatorDetector
@@ -8,7 +9,7 @@ class PlOperatorDetector
   class ProcessingError < StandardError ; end
 
   def initialize
-    @services = [ TMobile.new, GateSms.new ]
+    @services = [ TMobile.new, WJakiejSieci.new, GateSms.new ]
   end
 
   def find(number)
