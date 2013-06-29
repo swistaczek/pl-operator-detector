@@ -1,4 +1,5 @@
 = pl-operator-detector
+[![Build Status](https://travis-ci.org/swistaczek/pl-operator-detector.png)](https://travis-ci.org/swistaczek/pl-operator-detector)
 
 PlOperatorDetector is simple ruby wrapper arround few web services allowing user to check network name assigned to provided mobile phone number.
 
