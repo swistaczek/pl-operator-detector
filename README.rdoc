@@ -1,6 +1,19 @@
 = pl-operator-detector
 
-Description goes here.
+PlOperatorDetector is simple ruby wrapper arround few web services allowing user to check network name assigned to provided mobile phone number.
+
+== Usage example
+
+```ruby
+ > require 'pl-operator-detector'
+ => true 
+ > PlOperatorDetector.new.find('696 666 333')
+ => {:number=>"48696666333", :operator_code=>"260 02", :operator=>"PTC / T-Mobile"}
+ # OR - :operator_code is optional response
+ => {:number=>"48696666333", :operator=>"PTC / T-Mobile"} 
+```
+
+
 
 == Contributing to pl-operator-detector
  
@@ -16,4 +29,3 @@ Description goes here.
 
 Copyright (c) 2013 Ernest Bursa. See LICENSE.txt for
 further details.
-

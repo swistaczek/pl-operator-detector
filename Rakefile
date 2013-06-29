@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "pl-operator-detector"
   gem.homepage = "http://github.com/swistaczek/pl-operator-detector"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Ruby interface for identifying network operator for provided phone number}
+  gem.description = %Q{PlOperatorDetector is simple ruby wrapper arround few web services allowing user to check network name assigned to provided mobile phone number.}
   gem.email = "ernest@bzdury.pl"
   gem.authors = ["Ernest Bursa"]
   # dependencies defined in Gemfile
@@ -30,14 +30,6 @@ Rake::TestTask.new(:test) do |test|
   test.libs << 'lib' << 'test'
   test.pattern = 'test/**/test_*.rb'
   test.verbose = true
-end
-
-require 'rcov/rcovtask'
-Rcov::RcovTask.new do |test|
-  test.libs << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-  test.rcov_opts << '--exclude "gems/*"'
 end
 
 task :default => :test
