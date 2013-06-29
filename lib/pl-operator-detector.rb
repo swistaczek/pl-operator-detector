@@ -1,8 +1,10 @@
 # encoding: utf-8
 require 'faraday'
-require 't_mobile'
-require 'w_jakiej_sieci'
-require 'gate_sms'
+require 'pl-operator-detector/operator_name'
+require 'pl-operator-detector/custom_user_agent'
+require 'pl-operator-detector/t_mobile'
+require 'pl-operator-detector/w_jakiej_sieci'
+require 'pl-operator-detector/gate_sms'
 
 class PlOperatorDetector
 
@@ -29,6 +31,7 @@ class PlOperatorDetector
     end
 
     raise ProcessingError, "Could not process given number" unless @rsp
+    @rsp[:operator] = OperatorName.normalize(@rsp[:operator]) if @rsp[:operator]
     @rsp
   end
 
