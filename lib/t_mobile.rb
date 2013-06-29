@@ -23,7 +23,7 @@ class TMobile
     rslt = { }
 
     match_opcode = response.match(/<b>Kod sieci:<\/b><\/td><td>([\d\s]+)<\/td>/)
-    rslt[:operator_code] = match_opcode[1] if match_opcode[1]
+    rslt[:operator_code] = match_opcode[1] if match_opcode && match_opcode[1]
 
     match_opstr  = response.match(/<b>Operator:<\/b><\/td><td>(.{2,26})<\/td>/)
     if match_opstr && match_opstr[1]
